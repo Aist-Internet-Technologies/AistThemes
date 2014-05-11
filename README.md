@@ -3,21 +3,23 @@ AistThemes
 
 Zend Framework 2 module that allows developers install &amp; switch between various themes for their projects.
 
+[![Latest Stable Version](https://poser.pugx.org/aist/aist-themes/v/stable.png)](https://packagist.org/packages/aist/aist-themes) [![Total Downloads](https://poser.pugx.org/aist/aist-themes/downloads.png)](https://packagist.org/packages/aist/aist-themes) [![Latest Unstable Version](https://poser.pugx.org/aist/aist-themes/v/unstable.png)](https://packagist.org/packages/aist/aist-themes) [![License](https://poser.pugx.org/aist/aist-themes/license.png)](https://packagist.org/packages/aist/aist-themes)
+
 ## Features
  * Theme Installer
 
 ## Requirements
- * Zend Framework 2.3.0 or later.
- * PHP 5.4.0 or later.
+ * php >= 5.4.0
+ * zendframework >= 2.3.0
+ * composer
+ * See also the `require`, `require-dev` section of [composer.json](composer.json)
 
 ## Installation using [Composer](http://getcomposer.org)
  1. Open console (command prompt)
  2. Go to your application's directory.
  3. Run `composer require aist/aist-themes:dev-master`
 
-Theme Installer
-===============
-
+## Theme Installer
 AistThemes relies on specific directory locations for templates and plugins.
 By default [Composer](http://getcomposer.org) is unable to install in an other
 directory than /vendor except when using a
@@ -28,9 +30,7 @@ and provide custom behaviour for those.
 
 * *aist-theme*, install files into /data/themes instead of /vendor
 
-Creating your own themes
-------------------------
-
+## Creating your own themes
 In order to tell a theme to use this installer you need to add the following
 *composer.json*
 
@@ -45,3 +45,7 @@ In order to tell a theme to use this installer you need to add the following
 ```
 
 The type element will instruct Composer to use this Theme Installer.
+
+## Contributing
+Pull requests are welcome. Please include tests to prevent regressions whenever
+possible.
