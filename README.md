@@ -9,8 +9,8 @@ Zend Framework 2 module that allows developers install &amp; switch between vari
  * Theme Installer
 
 ## Requirements
- * php >= 5.4.0
- * zendframework >= 2.3.0
+ * php >= 5.3.3
+ * zendframework >= 2.2.6
  * composer
  * See also the `require`, `require-dev` section of [composer.json](composer.json)
 
