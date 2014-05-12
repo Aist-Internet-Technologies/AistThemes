@@ -19,6 +19,20 @@ Zend Framework 2 module that allows developers install &amp; switch between vari
  2. Go to your application's directory.
  3. Run `composer require aist/aist-themes:dev-master`
 
+#### Configuration
+1. Enable module in your `application.config.php` file.
+
+```php
+<?php
+return array(
+    'modules' => array(
+        // ...
+        'AistThemes',
+    ),
+    // ...
+);
+```
+
 ## Theme Installer
 AistThemes relies on specific directory locations for templates and plugins.
 By default [Composer](http://getcomposer.org) is unable to install in an other
@@ -49,3 +63,9 @@ The type element will instruct Composer to use this Theme Installer.
 ## Contributing
 Pull requests are welcome. Please include tests to prevent regressions whenever
 possible.
+
+## TODO
+- [ ] update tests
+- [ ] add travis
+- [ ] update composer.json
+- [ ] generate documentation
