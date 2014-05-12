@@ -1,5 +1,10 @@
 {
     "name": "aist/aist-themes",
+    "keywords": [
+        "zf2",
+        "theme",
+        "template"
+    ],
     "require": {
         "php": ">=5.4.0",
         "zendframework/zendframework":          ">=2.3.0"
@@ -10,5 +15,5 @@
         "zendframework/zftool":                 "dev-master",
         "zendframework/zenddiagnostics":        ">=1.0.0",
         "phpunit/phpunit":                      ">=4.1.0"
-    },
+    }
 }
