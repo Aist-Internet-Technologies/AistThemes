@@ -3,7 +3,7 @@ AistThemes
 
 Zend Framework 2 module that allows developers install &amp; switch between various themes for their projects.
 
-[![Latest Stable Version](https://poser.pugx.org/aist/aist-themes/v/stable.png)](https://packagist.org/packages/aist/aist-themes) [![Total Downloads](https://poser.pugx.org/aist/aist-themes/downloads.png)](https://packagist.org/packages/aist/aist-themes) [![Latest Unstable Version](https://poser.pugx.org/aist/aist-themes/v/unstable.png)](https://packagist.org/packages/aist/aist-themes) [![License](https://poser.pugx.org/aist/aist-themes/license.png)](https://packagist.org/packages/aist/aist-themes)
+[![Build Status](https://travis-ci.org/Aist-Internet-Technologies/AistThemes.svg?branch=master)](https://travis-ci.org/Aist-Internet-Technologies/AistThemes) [![Latest Stable Version](https://poser.pugx.org/aist/aist-themes/v/stable.png)](https://packagist.org/packages/aist/aist-themes) [![Total Downloads](https://poser.pugx.org/aist/aist-themes/downloads.png)](https://packagist.org/packages/aist/aist-themes) [![Latest Unstable Version](https://poser.pugx.org/aist/aist-themes/v/unstable.png)](https://packagist.org/packages/aist/aist-themes) [![License](https://poser.pugx.org/aist/aist-themes/license.png)](https://packagist.org/packages/aist/aist-themes)
 
 ## Features
  * Theme Installer
@@ -66,6 +66,6 @@ possible.
 
 ## TODO
 - [ ] update tests
-- [ ] add travis
+- [x] add travis
 - [ ] update composer.json
 - [ ] generate documentation
