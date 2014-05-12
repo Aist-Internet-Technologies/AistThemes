@@ -1,3 +1,14 @@
 {
-    "name": "aist/aist-themes"
+    "name": "aist/aist-themes",
+    "require": {
+        "php": ">=5.4.0",
+        "zendframework/zendframework":          ">=2.3.0"
+        
+    },
+    "require-dev": {
+        "zendframework/zend-developer-tools":   "dev-master",
+        "zendframework/zftool":                 "dev-master",
+        "zendframework/zenddiagnostics":        ">=1.0.0",
+        "phpunit/phpunit":                      ">=4.1.0"
+    },
 }
